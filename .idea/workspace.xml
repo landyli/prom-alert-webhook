@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1a77be-b5e1-4b5a-861e-94f648395a2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/Aliyun.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/Aliyun.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/RongLianYun.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/RongLianYun.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/dingtalk.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/dingtalk.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/wechat.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/wechat.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
