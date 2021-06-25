@@ -19,7 +19,7 @@ sh build.sh
 
 3、打包镜像
 ```shell script
-docker build -t registry.cn-hangzhou.aliyuncs.com/liyan/prom-alert-webhook:v0.0.6 .
+docker build -f Dockerfile.build -t registry.cn-hangzhou.aliyuncs.com/liyan/prom-alert-webhook:v0.0.6 .
 ```
 注：镜像地址更换成自己的仓库地址  
 4、推送镜像到镜像仓库
