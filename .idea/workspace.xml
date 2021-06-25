@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af1a77be-b5e1-4b5a-861e-94f648395a2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/Aliyun.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/Aliyun.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/RongLianYun.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/RongLianYun.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/dingtalk.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/dingtalk.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/wechat.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/wechat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1uQgZEKTefQvSGatD6jWyuFqwTd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="-731" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624613335358">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="459" y="-731" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1624613335358" />
+    <state x="552" y="-805" key="#com.intellij.ide.util.ExportDialog" timestamp="1624612206709">
+      <screen x="-246" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="552" y="-805" key="#com.intellij.ide.util.ExportDialog/0.23.1440.822/-246.-1080.1920.1080@-246.-1080.1920.1080" timestamp="1624612206709" />
+  </component>
+</project>
