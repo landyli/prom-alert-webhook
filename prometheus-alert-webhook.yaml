@@ -62,13 +62,13 @@ spec:
     spec:
       containers:
         - name: prometheus-alert-webhook
-          image: registry.cn-hangzhou.aliyuncs.com/rookieops/prometheus-alert-sms:v0.0.7
+          image: registry.cn-hangzhou.aliyuncs.com/liyan/prom-alert-webhook:v0.0.6
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 3
             httpGet:
               path: /healthCheck
-              port: tcp-9000
+              port: 9000
               scheme: HTTP
             initialDelaySeconds: 60
             periodSeconds: 10
@@ -78,7 +78,7 @@ spec:
               failureThreshold: 3
               httpGet:
                 path: /healthCheck
-                port: tcp-9000
+                port: 9000
                 scheme: HTTP
               initialDelaySeconds: 10
               periodSeconds: 10

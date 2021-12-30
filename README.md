@@ -31,10 +31,10 @@ docker push registry.cn-hangzhou.aliyuncs.com/liyan/prom-alert-webhook:v0.0.6
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: prom-alert-webhook
+  name: alert-webhook-conf
   namespace: monitoring
 data:
-  sms.yaml: |
+  conf.yaml: |
       adapter:
           - sms
           - wechat
@@ -91,13 +91,13 @@ spec:
     spec:
       containers:
         - name: prom-alert-webhook
-          image: registry.cn-hangzhou.aliyuncs.com/rookieops/prom-alert-webhook:v0.0.6
+          image: registry.cn-hangzhou.aliyuncs.com/liyan/prom-alert-webhook:v0.0.6
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 3
             httpGet:
               path: /healthCheck
-              port: tcp-9000
+              port: 9000
               scheme: HTTP
             initialDelaySeconds: 30
             periodSeconds: 10
@@ -107,7 +107,7 @@ spec:
               failureThreshold: 3
               httpGet:
                 path: /healthCheck
-                port: tcp-9000
+                port: 9000
                 scheme: HTTP
               initialDelaySeconds: 30
               periodSeconds: 10
@@ -122,21 +122,25 @@ spec:
               cpu: 500m
               memory: 1Gi
             requests:
-              cpu: 500m
-              memory: 1Gi
+              cpu: 100m
+              memory: 500Mi
           volumeMounts:
-            - name: sms-conf
+            - name: alert-webhook-conf
               mountPath: /app/conf/conf.yaml
               subPath: conf.yaml
       volumes:
-        - name: sms-conf
+        - name: alert-webhook-conf
           configMap:
-            name: sms-conf
+            name: alert-webhook-conf
+            defaultMode: 420
+        - name: localtime
+          hostPath:
+            path: /etc/localtime
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: prometheus-alter-sms
+  name: prom-alert-webhook
   namespace: monitoring
 spec:
   selector:
