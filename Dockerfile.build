@@ -4,7 +4,7 @@ RUN ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && mkdir /app
 ENV TZ Asia/Shanghai
 COPY conf/conf.yaml /app/conf/
-ADD prom-alert-webhook /app
+ADD prometheus-alert-webhook /app
 WORKDIR /app
 EXPOSE 9000
-ENTRYPOINT ["/app/prom-alert-webhook"]
+ENTRYPOINT ["/app/prometheus-alert-webhook"]
